@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test API">
+    <listeners>
+        <listener class-name="generic.listeners.TestListener"/>
+        <!--<listener class-name="generic.listeners.AnnotationTransformer"/>-->
+    </listeners>
+    <test name="Extent Report">
+        <classes>
+            <class name="generic.utils.ExtentReport"/>
+        </classes>
+    </test>
+</suite>

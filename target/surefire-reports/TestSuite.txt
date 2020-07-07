@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 18.067 sec <<< FAILURE! - in TestSuite
+getsingleEmployee(com.dummy.milestone_1.TC_CRUD)  Time elapsed: 1.874 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.dummy.milestone_1.TC_CRUD.getsingleEmployee(TC_CRUD.java:98)
+
+updateEmployee(com.dummy.milestone_1.TC_CRUD)  Time elapsed: 1.017 sec  <<< FAILURE!
+java.lang.AssertionError: Not expected a null object expected object to not be null
+	at com.dummy.milestone_1.TC_CRUD.updateEmployee(TC_CRUD.java:123)
+
+deleteEmployee(com.dummy.milestone_1.TC_CRUD)  Time elapsed: 0.912 sec  <<< FAILURE!
+java.lang.AssertionError: expected [success] but found [failed]
+	at com.dummy.milestone_1.TC_CRUD.deleteEmployee(TC_CRUD.java:140)
+

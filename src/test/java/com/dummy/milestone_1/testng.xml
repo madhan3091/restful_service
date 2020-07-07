@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Employee Management">
+    <listeners>
+        <listener class-name="generic.listeners.TestListener"/>
+        <!--<listener class-name="generic.listeners.AnnotationTransformer"/>-->
+    </listeners>
+    <test name="Employee Management">
+        <classes>
+            <class name="com.dummy.milestone_1.TC_CRUD" >
+                <methods>
+                    <include name="getEmployee"/>
+                    <include name="getsingleEmployee"/>
+                    <include name="addCreate"/>
+                    <include name="updateEmployee"/>
+                    <include name="deleteEmployee"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

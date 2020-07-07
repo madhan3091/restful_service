@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test API">
+        <test name="Open Report">
+        <classes>
+            <class name="generic.utils.openReport"/>
+        </classes>
+    </test>
+</suite>
